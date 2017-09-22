@@ -1,0 +1,237 @@
+/* line 17, ../sass/_grids.scss */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../var/lib/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 21, ../sass/_grids.scss */
+.menu {
+  margin-left: 7.20339%;
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 480px) {
+  /* line 21, ../sass/_grids.scss */
+  .menu {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* line 31, ../sass/_grids.scss */
+.main-content .welcome-content {
+  margin-left: 8.47458%;
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-bottom: 1.69492%;
+  margin-top: 1.69492%;
+}
+/* line 38, ../sass/_grids.scss */
+.main-content .welcome-content .content .title {
+  margin-top: 1.69492%;
+}
+/* line 41, ../sass/_grids.scss */
+.main-content .welcome-content .content .button {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-bottom: 1.69492%;
+  margin-top: 1.69492%;
+}
+@media screen and (max-width: 480px) {
+  /* line 41, ../sass/_grids.scss */
+  .main-content .welcome-content .content .button {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* line 41, ../sass/_grids.scss */
+  .main-content .welcome-content .content .button {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-bottom: 1.69492%;
+  }
+}
+/* line 58, ../sass/_grids.scss */
+.main-content .gallery-content {
+  margin-left: 8.47458%;
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 62, ../sass/_grids.scss */
+.main-content .gallery-content .gallery-item {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-bottom: 1.69492%;
+}
+@media screen and (max-width: 480px) {
+  /* line 62, ../sass/_grids.scss */
+  .main-content .gallery-content .gallery-item {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-bottom: 1.69492%;
+  }
+  /* line 69, ../sass/_grids.scss */
+  .main-content .gallery-content .gallery-item:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* line 62, ../sass/_grids.scss */
+  .main-content .gallery-content .gallery-item {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-bottom: 1.69492%;
+  }
+  /* line 77, ../sass/_grids.scss */
+  .main-content .gallery-content .gallery-item:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 85, ../sass/_grids.scss */
+.footer {
+  margin-left: 8.47458%;
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 89, ../sass/_grids.scss */
+.footer .footer-element {
+  width: 10.41162%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 480px) {
+  /* line 89, ../sass/_grids.scss */
+  .footer .footer-element {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    margin-top: 1.69492%;
+    margin-bottom: 1.69492%;
+  }
+  /* line 96, ../sass/_grids.scss */
+  .footer .footer-element:nth-child(3n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* line 89, ../sass/_grids.scss */
+  .footer .footer-element {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 103, ../sass/_grids.scss */
+  .footer .footer-element:nth-child(4n) {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 8, ../sass/_layout.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/_layout.scss */
+.menu-container {
+  background-color: #8f939b;
+}
+
+/* line 17, ../sass/_layout.scss */
+.main-container {
+  min-height: 600px;
+  background-color: #dcdfe5;
+}
+
+/* line 22, ../sass/_layout.scss */
+.footer-container {
+  background-color: #34383f;
+}
+
+/* line 27, ../sass/_layout.scss */
+.menu ul {
+  background-color: #8f939b;
+  list-style-type: none;
+  overflow: hidden;
+}
+/* line 31, ../sass/_layout.scss */
+.menu ul li {
+  float: left;
+}
+/* line 33, ../sass/_layout.scss */
+.menu ul li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* line 41, ../sass/_layout.scss */
+.menu ul li a:hover {
+  background-color: #34383f;
+}
+
+/* line 47, ../sass/_layout.scss */
+.button {
+  background-color: #8f939b;
+  border: none;
+  display: inline-block;
+  color: #dcdfe5;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 57, ../sass/_layout.scss */
+.gallery-item {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #8f939b;
+}
+
+/* line 63, ../sass/_layout.scss */
+.footer {
+  min-height: 100px;
+  color: #8f939b;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 71, ../sass/_layout.scss */
+  .title, .subtitle {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* line 77, ../sass/_layout.scss */
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}

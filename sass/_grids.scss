@@ -1,0 +1,108 @@
+// Requirements
+// ============
+
+@import "susy";
+
+//breakpoints
+$small: 480px;
+$medium: 768px;
+$large: 1024px;
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  container: 1280px,
+);
+
+.container {
+  @include container;
+}
+
+.menu{
+  @include push(0.85);
+  @include span(10);
+
+  @media screen and (max-width: $small){
+    @include span(12);
+  }  
+}
+
+.main-content{
+  .welcome-content{
+    @include push(1);
+    @include span(10);
+    margin-bottom: gutter();
+    margin-top: gutter();
+
+    .content{
+      .title{
+        margin-top: gutter();
+      }
+      .button{
+        @include span(4);
+        margin-bottom: gutter();
+        margin-top: gutter();
+
+        @media screen and (max-width: $small){
+          @include span(12);
+        }
+
+        @media screen and (min-width: $small) and (max-width: $medium){
+          @include span(4 of 12);
+          margin-bottom: gutter();
+        }
+      }
+    }
+  }
+
+  .gallery-content {
+    @include push(1);
+    @include span(10);
+
+    .gallery-item{
+      @include span(2);
+      margin-bottom: gutter();
+
+      @media screen and (max-width: $small){
+        @include span(6);
+        margin-bottom: gutter();
+        &:nth-child(2n) {
+          @include last;
+        }
+      }
+
+      @media screen and (min-width: $small) and (max-width: $medium){
+        @include span(3 of 12);
+        margin-bottom: gutter();
+        &:nth-child(4n) {
+          @include last;
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  @include push(1);
+  @include span(10);
+
+  .footer-element{
+    @include span(10/7);
+
+    @media screen and (max-width: $small){
+      @include span(4);
+      margin-top: gutter();
+      margin-bottom: gutter();
+      &:nth-child(3n) {
+        @include last;
+      }
+    }
+
+    @media screen and (min-width: $small) and (max-width: $medium){
+      @include span(3);
+      &:nth-child(4n) {
+        @include last;
+      }
+    }
+  }
+}

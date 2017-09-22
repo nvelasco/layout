@@ -1,0 +1,81 @@
+$bg-color-menu-container: #8f939b;
+$bg-color-main-container: #dcdfe5;
+$bg-color-footer-container: #34383f;
+
+$bg-btn-color: #8f939b;
+$btn-color: #dcdfe5;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container{
+  background-color: $bg-color-menu-container;
+}
+
+.main-container{
+  min-height: 600px;
+  background-color: $bg-color-main-container;
+}
+
+.footer-container{
+  background-color: $bg-color-footer-container;
+}
+
+.menu {
+  ul {
+    background-color: $bg-color-menu-container;
+    list-style-type: none;
+    overflow: hidden;
+    li {
+        float: left;
+        a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+    li a:hover {
+        background-color: #34383f;
+    }
+  }
+}
+
+.button {
+  background-color: $bg-btn-color;
+  border: none;
+  display: inline-block;
+  color: $btn-color;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gallery-item{
+  min-width: 100px;
+  min-height: 100px;
+  background-color: $bg-color-menu-container;
+}
+
+.footer{
+  min-height: 100px;
+  color: #8f939b;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: $small){
+  .title, .subtitle{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $small){
+  .footer{
+    display: flex;
+    align-items: center;
+  }
+}
